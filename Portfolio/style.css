@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: #77b0aa;
+}
+
+.nav .name {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.nav ul {
+  display: flex;
+  background-color: #77b0aa;
+  padding: 20px;
+  list-style: none;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  transition: 1s;
+  border-radius: 5px;
+  color: white;
+}
+
+a:hover {
+  background-color: #135d66;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  color: #003c43;
+}
+
+h3 {
+  padding: 10px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.section {
+  height: 100vh;
+  background-color: #e3fef7;
+  padding-top: 100px;
+}
+
+.home-container {
+  display: flex;
+}
+
+.home-container div {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.home-container img {
+  width: 50%;
+}
+
+section {
+  text-align: center;
+  margin: auto;
+}
+
+.about-me {
+  padding: 100px;
+  text-align: center;
+}
+
+.school-image {
+  text-align: center;
+  padding: 30px;
+}
+
+.school-image img {
+  width: 30%;
+}
+
+.education-info {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.computer-man img {
+  width: 30%;
+}
+
+.computer-man {
+  text-align: center;
+}
+
+.coming-soon {
+  text-align: center;
+}
+
+form {
+  background-color: #77b0aa;
+  color: white;
+  width: 500px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.email,
+.inquiry,
+.submit,
+.name {
+  padding: 10px;
+}
+
+.submit {
+  background-color: #135d66;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border-style: none;
+  width: 100%;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+textarea {
+  border-style: none;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
